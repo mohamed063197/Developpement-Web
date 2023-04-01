@@ -1,0 +1,209 @@
+	*{
+		box-sizing:border-box;
+	}
+	body{
+		font-size:16px;
+		font-family:'Century Gothic', sans-serif;
+		color:RGBa(0,0,0,.87);
+		font-weight:500px;
+	}
+
+	.top-bar{
+		z-index:1;
+		position:fixed;
+		top:0px;
+		right:0px;
+		left:0px;
+		background-color:white;
+		opacity:0.7;
+		padding:31px 87px;
+		-webkit-transition: opacity 1s ease;
+		-moz-transition:opacity 1s ease;
+	}
+	.top-bar:hover{
+		
+		opacity:.9;
+	}
+
+	.top-bar img{
+
+		width:20px;
+		height:20px;
+
+	}
+	.top-bar .logo a{
+
+		padding:0px 15px;
+		opacity:.5;
+		
+	}
+	.top-bar .logo a:hover{
+		opacity:1;
+	}
+	.top-bar nav{
+		float:left;
+	}
+
+	.top-bar .logo{
+		float:right;
+	}
+
+	.top-bar nav a{
+		color:#9F9F9F;
+		text-decoration:none;
+		padding:53px;
+		font-weight:bold;
+	}
+
+	.top-bar nav a:hover{
+		color:black;
+	}
+	.top-bar nav .active{
+		color:black;
+	}
+
+	.image-header img{
+		width:100%;
+		height:427px;
+	}
+
+	.main{
+		z-index:3;
+		width:calc( 100% - 375px );
+		height:auto;
+		background-color:white;
+		float:left;
+		position:relative;
+		box-shadow:0 4px 34px RGBa(0,0,0,.1);
+	}
+
+	.categories{
+		position:relative;
+		z-index:2;
+		width:375px;
+		height:auto;
+		background-color:#FBFBFB;
+		float:right;
+		padding:0px 40px;
+		margin-bottom:15px;
+	}
+	.categories .sid-bar-title{
+
+		font-weight:bold;
+		font-size:30px;
+		color:#000;
+	}
+
+	.categories li{
+		margin:5px;
+		list-style-type:none;
+
+	}
+
+
+	.categories a{
+		font-size:16px;
+		padding:0px,1px;
+		font-weight:normal;
+		text-decoration:none;
+		color:#9F9F9F;
+		-webkit-transition: font-size 0.7s, font-weight 0.7s;
+	}
+	.categories a:hover {
+		
+		font-weight:bold;
+		color:black;
+		padding:0px;
+	}
+	.categories ul{
+		/*achaque entree vous devez initialiser le counter*/
+		counter-reset:categorise-counter;
+		margin:0px;
+		padding:0px;
+	}
+	.categories hr{
+		border-color:#C4C4C4;
+	}
+	.article:;first-child{
+		margin-top:43px;
+	}
+	.article:;last-child{
+		margin-bottom:43px;
+	}
+	.article{
+		overflow:hidden;
+		margin:33px 0px;
+		height:210px;
+		transition: transform 1s ease;
+	}
+	.article:hover{
+		transform:translate(50%,50%) rotate(1deg) scale(6);
+	}
+
+	.article img{
+		width:308px;
+		height:200px;
+		float:left;
+		margin-right:26px;
+		margin-left:26px;
+		box-shadow:2px 2px 2px RGBa(0,0,0,.5);
+		
+	}
+
+	.article-date{
+		color:RGBa(0,0,0,.6);
+		text-weight:light;
+		
+	}
+
+	.article-paragraph{
+		text-shadow:0px 0px 1px #CCC; 
+		
+	}
+
+
+	.article-title{
+		text-shadow:0px 0px 3px #CCC; 
+		font-family:cardo;
+		font-style:bold;
+		font-size:36px;
+		font-style:normal;	
+		color:#000;
+	}
+	.article a{
+		text-decoration:none;
+	}
+
+	footer{
+		height:100px;
+		padding-top:30px;
+		text-align:center;
+		background-color:#C5C5C5;
+		border-bottom: :2px solid #BBB;
+		clear:both;
+		margin-bottom:20px;
+		background:-webkit-linear-gradient(bottom,#CCC,#FBFBFB);
+		background:-o-linear-gradient(top,#CCC,#FBFBFB);
+		background:-moz-linear-gradient(top,#CCC,#FBFBFB);
+		background:-ms-linear-gradient(top,#CCC,#FBFBFB);
+		background:linear-gradient(to top,#CCC,#FBFBFB);
+	}
+
+	/* ajoute de code juste pour tester */
+	/*
+	.categories li:first-child::before{
+		content:'1';
+	}
+	.categories li::after{
+		content:'.';
+	}
+	*/
+
+	.categories li::before{
+		/*je declare un counter et je l'increment a chaque entree*/
+		counter-increment:categorise-counter;
+		content:counter(categorise-counter);
+	}
+	.categories li::after{
+		content:'.';
+	}

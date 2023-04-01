@@ -1,0 +1,32 @@
+*{
+	box-sizing:border-box;
+}
+body{
+	font-size:16px;
+	font-family:"Roboto";
+	color:black;
+	font-weight:500px;
+	background-color:#F5F5F5;
+
+}
+
+ul{
+	list-style-type: none;
+}
+a{
+	text-decoration: none;
+}
+.sid-bar{
+	background-color:#2C3E50;
+	position: fixed;
+	width:100%;
+}
+.sid-bar a{
+	color:black;
+}
+.sid-bar .Logo{
+	float:left;
+}
+.sid-bar li{
+	float:right;
+}

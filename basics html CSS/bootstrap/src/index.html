@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<!--jQuery-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+
+	<!-- css and js-->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="../css/style.css">
+</head>
+<body>
+	<!-- container-fluid: prend toute la largeur-->
+	<!-- container: elle est center par rapport a la page-->
+		<!--xs:largeur phone / sm: tabelette/md: desktop/lg: large desktop-->
+	<div class="container">
+		<div class="row">
+		<div class="col-sm-6 col-md-4 col-lg-3">
+			<h1>Ma page bootstrap</h1>
+			<p>
+				Je suis un paragraphe
+			</p>
+		</div>
+		<div class="col-sm-6 col-md-4 col-lg-3">
+			<h1>Ma page bootstrap</h1>
+			<p>
+				Je suis un paragraphe
+			</p>
+		</div>
+		<div class="col-sm-6 col-md-4 col-lg-3">
+			<h1>Ma page bootstrap</h1>
+			<p>
+				Je suis un paragraphe
+			</p>
+		</div>
+		<div class="col-sm-6 col-md-4 col-lg-3">
+			<h1>Ma page bootstrap</h1>
+			<p>
+				Je suis un paragraphe
+			</p>
+		</div>
+		<div class="col-sm-6 col-md-4 col-lg-3">
+			<h1>Ma page bootstrap</h1>
+			<p>
+				Je suis un paragraphe
+			</p>
+		</div>
+		<div class="col-sm-6 col-md-4 col-lg-3">
+			<h1>Ma page bootstrap</h1>
+			<p>
+				Je suis un paragraphe
+			</p>
+		</div>
+		<div class="col-sm-6 col-md-4 col-lg-3">
+			<h1>Ma page bootstrap</h1>
+			<p>
+				Je suis un paragraphe
+			</p>
+		</div>
+		<div class="col-sm-6 col-md-4 col-lg-3">
+			<h1>Ma page bootstrap</h1>
+			<p>
+				Je suis un paragraphe
+			</p>
+		</div>
+		</div>
+	</div>
+
+
+	<!-- formulaire-->
+<div class="container">
+	<form class="form row" >
+		<div class="form-group col-md-6 col-lg-4 input-lg">
+			<label for='name'>Name:</label>
+			<input type="text" class="form-control" id="name" name="name">
+		</div>
+		<div class="form-group col-md-6 col-lg-4 has-success">
+			<label for='email'>Email:</label>
+			<input type="mail" class="form-control input-lg" id="email" name="email">
+		</div>
+		<div class="form-group col-md-6 col-lg-4">
+			<label for='password'>Password:</label>
+			<input type="password" class="form-control" id="password" name="password">
+		</div>
+
+		<div class="form-group">
+			<textarea type='text' class='form-control'></textarea>
+		</div>
+
+		<div class="form-group col-md-2 col-lg-3">
+			<input type="submit" class="btn btn-default" value="valider">
+		</div>
+	</form>
+
+	<!--class btn btn-.....-->
+	<a href="#" class='btn btn-default btn-lg btn-block'> default</a>
+	<a href="#" class='btn btn-success btn-md btn-inline'> Succes</a>
+	<a href="#" class='btn btn-primary btn-sm btn-block'> Primary</a>
+	<div class="btn btn-group-vertical">
+		<a href="#" class='btn btn-info btn-xs'> Info</a>
+		<a href="#" class='btn btn-warning'> Warning</a>
+		<a href="#" class='btn btn-danger'> Danger</a>
+		<a href="#" class='btn btn-link'> Link</a>
+	</div>
+
+
+	<!--image-->
+	
+	<img src="../img/profil1.jpg" class='img-thumbnail'>
+	<img src="../img/profil1.jpg" class='img-circle'>
+	<img src="../img/profil1.jpg" class='img-rounded'>
+	<img src="../img/profil1.jpg "class="img-responsive">
+
+	<!--icon -->
+	<a href="#" class='btn btn-default'><span class="glyphicon glyphicon-hand-down"></span>search</a>
+
+
+	<!--liste-->
+	<!--construire la liste-->
+	<div class="dropup">
+		<!--le button pour ouvrir la liste deroulante-->
+		<button type='button' class='btn btn-success dropdown-toggle ' data-toggle='dropdown'> Fruits </button>
+		<!--la liste -->
+		<ul class='dropdown-menu'>
+			<li><a href='#'>Banane</a></li>
+			<li><a href='#'>Pomme</a></li>
+			<li class="divider"></li>
+			<li><a href='#' class='dropdown-header'>Poire</a></li>
+			<li><a href='#'>Orange</a></li>
+		</ul>
+	</div>
+
+</div>
+</body>
+</html>

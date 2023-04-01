@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Projet Météo</title>
+        <meta charset="utf-8">
+        <meta name="viewport"
+          content="width=device-width, initial-scale=1, user-scalable=no">
+       <link rel="stylesheet" href="style.css">
+        <script src='loc.js' async></script>
+
+    </head>
+    
+    <body>
+        <header> 
+            <div class="container">
+
+                <h1 class="ville"> L'Ariane, Nice</h1>
+                <div class="heure">
+                    Il est  <span id="h" class="value">05:44</span> et la temperature actuelle est de
+                </div>
+
+                <div class="flex main">
+                    <div class="temperature">
+                        <p id="temp" class="temp">23</p>
+                        <div class="temp_min_max">
+
+                            <div class="temp_min">
+                                <p class="value">19°</p>
+                                <span class="title">Min</span>
+                            </div>
+
+                            <div class="temp_max">
+                                <p class="value">27°</p>
+                                <span class="title">Max</span>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="unite">
+                        <span id="degre" class="degre active">°C</span>
+                        <span> I </span>
+                        <span id="farad" class="farad">°F</span>
+                    </div>
+                </div>
+
+                <div class="humidite_vent">
+                    <div class="humidite">
+                        <p class="title">Humidité</p>
+                        <span class="value">36%</span>
+                    </div>
+
+                    <div class="vent">
+                        <p class="title">Vent(km/h)</p>
+                        <span class="value">17</span>
+                    </div>
+
+                </div>
+                <p class="description">
+                    Nuageux mais pas trop
+                </p>
+            </div>
+        </header>
+
+
+ 
+     
+
+    </body>
+</html>
