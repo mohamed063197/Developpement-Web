@@ -74,29 +74,30 @@ header .temp{
 }
 
 
-header .main .degre:hover, .farad:hover{
+.header .main .degre:hover, .farad:hover{
     text-shadow: 0 0 8px #404040;
 }
-header .unite .active{
+
+.header .unite .active{
     font-weight: normal;
 }
 
 
-header .humidite_vent{
+.header .humidite_vent{
     display:flex;
     justify-content: space-between;
     
 }
 
-header .humidite_vent .title{
+.header .humidite_vent .title{
     font-size: 1.5rem;
     font-weight: 300;
 }
-header .humidite_vent .value{
+.header .humidite_vent .value{
     font-size: 3rem;
 }
 
-header .humidite .title,.vent .title{
+.header .content .title{
     margin-bottom: 2.5rem;
     letter-spacing: .2rem;
 
