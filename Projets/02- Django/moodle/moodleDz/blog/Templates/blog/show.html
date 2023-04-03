@@ -1,0 +1,21 @@
+{% extends 'blog/base.html' %}
+
+{% block title %} BLOG|{{post.title}} {% endblock %}
+
+{% block htitle %}
+    <h1>Cours {{post.id}} </h1>
+{% endblock %}
+
+{% block body %}  
+    <article>
+        <h2 class='title'>{{post.title}}</h2>
+        <p class='content'>
+            {{post.body}}
+        </p>
+
+    </article>
+    <a href=" {% url 'index' %} "> Retour Au Blogs </a>
+{% endblock%}
+
+
+
