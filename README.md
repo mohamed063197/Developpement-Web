@@ -18,7 +18,8 @@
    <img align="center" src="Logo.png"><br/> <br/>
   <h1 align="center">Projets Web</h1>
   <p align="center">
-    Descripton pour tout les projet
+    Voici Quelques Projets Dans Le Domaine Du Développement Web (FrontEnd / BackEnd)
+</p>
   </p>
 </header>
 
@@ -29,16 +30,20 @@
   <summary>Table De Matière</summary>
   <ol>
     <li>
-      <a href="#about-the-project">Présentations Des Projets</a>
-      <ul>
-        <li><a href="#built-with"> Weather App </a></li>
+        <a href="#">Présentations Des Projets</a>
+        <ul>
+            <li>
+                <a href="#"> Weather App </a>
+                <ul>
+                    <li><a href="#">Pour Commencer</a></li>
+                    <li><a href="#">Languages utilisés</a></li>
+                     <li><a href="#Developement">Développement</a></li>
+                    <li><a href="#contact">Interface IHM (UI / UX)</a></li>
+                </ul>
+            </li>
       </ul>
     </li>
-    <li>
-      <a href="#getting-started">Pour Commencer</a>
-      </li>
     <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Remerciements</a></li>
   </ol>
 
 
@@ -48,21 +53,20 @@
 
 
 ## Pour Commencer
-Pour avoir ce projet veuillez effectué un git clone comme suit:
-git clone
+Pour avoir ce projet veuillez copier le dossier comme suit:
 
 ```sh
   git clone https://github.com/mohamed063197/Developpement-Web.git
 
   ```
-Cette commande va effectué une copie sur votre repertoire local. Ensuite deplacez vous dans le dossier météo en effectuant la commande suivante:
+Cette commande va effectuer une copie sur votre répertoire local. Ensuite déplacez vous dans le dossier météo en effectuant la commande suivante:
 
 ```sh
   cd "Projets/01- HTML - CSS/01-Meteo"
 
   ```
 
-## Language utilisés
+## Languages utilisés
 
 - ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
   
@@ -72,13 +76,15 @@ Cette commande va effectué une copie sur votre repertoire local. Ensuite deplac
 
 <p align="right">(<a href="#readme-top">Retour en haut</a>)</p>
 
-## Developement
+## Développement
 
-Utilise un web service pour recuperer les données - **OpenWeatherMap API**  - 
-Use Material Design 2
-Dark Mode
-Support two language. English & Persian
-Use locale Database
+- Utilise un web service pour récupérer les données -**OpenWeatherMap API**-
+  
+- Récupérer de manière automatique la localisation de votre appareil.
+
+## Interface IHM (UI / UX)
+IHM de cette application sont faites avec figma. Voici le lien pour accéder au interfaces:
+https://www.figma.com/file/fyGKKnB9rTLb9OPT3RloyU/Meteo?node-id=0%3A1&t=iGBmrWuilRssDEqY-1
 
 
 
