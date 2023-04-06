@@ -49,10 +49,12 @@
 
 <!-- ABOUT THE PROJECT -->
 ## Weather APP
+
  <br><div align="center"><img align="center" src="meteo.png"></div><br>
 
 
 ## Pour Commencer
+
 Pour avoir ce projet veuillez copier le dossier comme suit:
 
 ```sh
@@ -83,9 +85,9 @@ Cette commande va effectuer une copie sur votre répertoire local. Ensuite dépl
 - Récupérer de manière automatique la localisation de votre appareil.
 
 ## Interface IHM (UI / UX)
+
 IHM de cette application sont faites avec figma. Voici le lien pour accéder au interfaces:
 https://www.figma.com/file/fyGKKnB9rTLb9OPT3RloyU/Meteo?node-id=0%3A1&t=iGBmrWuilRssDEqY-1
-
 
 
 <!-- CONTACT -->
